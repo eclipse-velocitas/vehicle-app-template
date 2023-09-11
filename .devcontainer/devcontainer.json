@@ -2,8 +2,7 @@
     "name": "Vehicle app template",
     "build": {
         "dockerfile": "Dockerfile",
-        "context": "../../.."
     },
-    "features": {},
-	"onCreateCommand": "bash .devcontainer/scripts/postCreateCommand.sh"
+	"onCreateCommand": "bash .devcontainer/scripts/postCreateCommand.sh",
+    "remoteUser": "vscode"
 }
