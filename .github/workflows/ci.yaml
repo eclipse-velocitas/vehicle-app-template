@@ -12,7 +12,7 @@ on:
       - devContainerSetup
   pull_request:
     branches:
-      - main
+      - devContainerSetup
 
 jobs:
   run-integration-test:
@@ -22,4 +22,4 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Check if velocitas is installed
-        run: sudo velocitas --version
+        run: sudo usr/bin/velocitas --version
