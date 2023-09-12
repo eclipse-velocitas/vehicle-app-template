@@ -22,4 +22,4 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Check if velocitas is installed
-        run: sudo usr/bin/velocitas --version
+        run: sudo /usr/bin/velocitas --version
