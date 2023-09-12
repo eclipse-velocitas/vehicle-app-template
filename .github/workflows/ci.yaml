@@ -1,0 +1,25 @@
+name: CI workflow
+
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
+on:
+  workflow_dispatch:
+  push:
+    # Run only on branches/commits and not tags
+    branches:
+      - devContainerSetup
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  run-integration-test:
+    name: Run Integration Test
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Check if velocitas is installed
+        run: sudo velocitas --version
