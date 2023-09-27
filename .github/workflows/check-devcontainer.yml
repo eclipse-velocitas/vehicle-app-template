@@ -39,4 +39,4 @@ jobs:
         uses: devcontainers/ci@v0.3
         with:
           runCmd: |
-            ./usr/bin/velocitas --version
+            ../../usr/bin/velocitas --version
