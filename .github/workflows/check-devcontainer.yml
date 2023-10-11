@@ -43,4 +43,4 @@ jobs:
         with:
           runCmd: |
             velocitas --version
-          env: VELOCITAS_CREATE_VALUES=-n test -l python
+          env: VELOCITAS_CREATE_ARGS=-n test -l python
