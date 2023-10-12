@@ -5,7 +5,7 @@ The repository to get you started with Velocitas App development. It contains a 
 ## Required software
 
 * Visual Studio Code
-* A container runtime supported by Visual Studio Code's devContainer feature. See [here](https://eclipse-velocitas.github.io/velocitas-docs/docs/tutorials/quickstart/container_runtime/)
+* A container runtime supported by Visual Studio Code's devContainer feature. See [here](https://eclipse.dev/velocitas/docs/tutorials/quickstart/container_runtime/)
 
 ## Setup steps
 
