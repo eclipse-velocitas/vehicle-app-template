@@ -1,6 +1,6 @@
 # Vehicle App Template
 
-The repository to get you started with Velocitas App development. It contains a very basic setup which will walk you through assisted project creation.
+This is a repository to get you started with Velocitas App development. It contains a very basic setup which will walk you through assisted project creation.
 
 ## Required software
 
