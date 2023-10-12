@@ -9,8 +9,7 @@ The repository to get you started with Velocitas App development. It contains a 
 
 ## Setup steps
 
-1. Clone the repository **or** use Github Codespaces
-2. Open the repository in Visual Studio Code **or** in Github Codespaces
+1. Clone the repository and open it in Visual Studio Code **or** use Github Codespaces
 3. Follow the steps through the assisted project creation
 4. When prompted restart the devContainer (:warning:under the hood, we have updated your container configuration:warning:) - if not prompted, manually restart the container using `View` -> `Command Palette...` -> `Dev Containers: Rebuild Container`
 5. Start hacking!
