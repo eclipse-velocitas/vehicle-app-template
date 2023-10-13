@@ -15,7 +15,6 @@ if [ ! -e "cli" ]; then
 fi
 
 cd cli
-git switch fix/create-command-adaptions
 git pull
 ./install_node.sh
 
