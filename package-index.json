@@ -83,22 +83,5 @@
                 ]
             }
         ]
-    },
-    {
-        "type": "core",
-        "package": "https://github.com/eclipse-velocitas/vehicle-app-cpp-sdk",
-        "exposedInterfaces": [
-            {
-                "type": "examples",
-                "description": "Provided Examples from SDK",
-                "args": [
-                    {
-                        "id": "seat-adjuster",
-                        "description": "Seat Adjuster Example",
-                        "type": "string"
-                    }
-                ]
-            }
-        ]
     }
 ]
