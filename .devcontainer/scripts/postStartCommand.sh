@@ -39,6 +39,11 @@ echo "###########################################"
 
 # start fresh, regardless of cached data
 sudo rm -rf ~/.velocitas
+
+# Ensure all files within the mounted Git repo are owned by the current user
+# (should be "vscode"). This is required for devContainers running on Windows
+# + WSL2, where mounted files/folders "appear as if they are owned by root"
+# (see https://code.visualstudio.com/remote/advancedcontainers/add-nonroot-user)
 sudo chown -R $(id -u):$(id -g) .
 
 velocitas create $VELOCITAS_CREATE_ARGS
