@@ -39,6 +39,7 @@ echo "###########################################"
 
 # start fresh, regardless of cached data
 sudo rm -rf ~/.velocitas
+sudo chown -R $(id -u):$(id -g) .
 
 velocitas create $VELOCITAS_CREATE_ARGS
 
