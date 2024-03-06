@@ -23,7 +23,7 @@
                                         "id": "seat-adjuster",
                                         "mandatoryComponents": [
                                             {
-                                                "id": "vehicle-model-lifecycle",
+                                                "id": "vehicle-signal-interface",
                                                 "config": {}
                                             }
                                         ],
@@ -33,7 +33,7 @@
                                         "id": "dog-mode",
                                         "mandatoryComponents": [
                                             {
-                                                "id": "vehicle-model-lifecycle",
+                                                "id": "vehicle-signal-interface",
                                                 "config": {}
                                             }
                                         ],
