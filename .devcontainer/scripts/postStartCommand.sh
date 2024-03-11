@@ -44,7 +44,8 @@ sudo rm -rf ~/.velocitas
 # (should be "vscode"). This is required for devContainers running on Windows
 # + WSL2, where mounted files/folders "appear as if they are owned by root"
 # (see https://code.visualstudio.com/remote/advancedcontainers/add-nonroot-user)
-sudo chown -R $(id -u):$(id -g) .
+shopt -s extglob
+sudo chown -R $(id -u):$(id -g) ./!(.git)
 
 velocitas create $VELOCITAS_CREATE_ARGS
 
