@@ -1,6 +1,6 @@
 {
     "name": "Vehicle App Template",
-    "image": "ghcr.io/eclipse-velocitas/devcontainer-base-images/base:v0.2",
+    "image": "ghcr.io/eclipse-velocitas/devcontainer-base-images/base:v0.3",
     "remoteUser": "vscode",
     "customizations": {
         "vscode": {
